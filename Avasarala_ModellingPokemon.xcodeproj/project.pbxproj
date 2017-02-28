@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D0EA2901E66451500D65368 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D0EA28F1E66451500D65368 /* AppDelegate.swift */; };
+		6D0EA2921E66451500D65368 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D0EA2911E66451500D65368 /* ViewController.swift */; };
+		6D0EA2951E66451500D65368 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D0EA2931E66451500D65368 /* Main.storyboard */; };
+		6D0EA2971E66451500D65368 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D0EA2961E66451500D65368 /* Assets.xcassets */; };
+		6D0EA29A1E66451500D65368 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D0EA2981E66451500D65368 /* LaunchScreen.storyboard */; };
+		6D0EA2A51E66451500D65368 /* Avasarala_ModellingPokemonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D0EA2A41E66451500D65368 /* Avasarala_ModellingPokemonTests.swift */; };
+		6D0EA2B01E66451500D65368 /* Avasarala_ModellingPokemonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D0EA2AF1E66451500D65368 /* Avasarala_ModellingPokemonUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D0EA2A11E66451500D65368 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D0EA2841E66451500D65368 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D0EA28B1E66451500D65368;
+			remoteInfo = Avasarala_ModellingPokemon;
+		};
+		6D0EA2AC1E66451500D65368 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D0EA2841E66451500D65368 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D0EA28B1E66451500D65368;
+			remoteInfo = Avasarala_ModellingPokemon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6D0EA28C1E66451500D65368 /* Avasarala_ModellingPokemon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Avasarala_ModellingPokemon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D0EA28F1E66451500D65368 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6D0EA2911E66451500D65368 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6D0EA2941E66451500D65368 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D0EA2961E66451500D65368 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D0EA2991E66451500D65368 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6D0EA29B1E66451500D65368 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D0EA2A01E66451500D65368 /* Avasarala_ModellingPokemonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Avasarala_ModellingPokemonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D0EA2A41E66451500D65368 /* Avasarala_ModellingPokemonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avasarala_ModellingPokemonTests.swift; sourceTree = "<group>"; };
+		6D0EA2A61E66451500D65368 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D0EA2AB1E66451500D65368 /* Avasarala_ModellingPokemonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Avasarala_ModellingPokemonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D0EA2AF1E66451500D65368 /* Avasarala_ModellingPokemonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avasarala_ModellingPokemonUITests.swift; sourceTree = "<group>"; };
+		6D0EA2B11E66451500D65368 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D0EA2891E66451500D65368 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D0EA29D1E66451500D65368 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D0EA2A81E66451500D65368 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D0EA2831E66451500D65368 = {
+			isa = PBXGroup;
+			children = (
+				6D0EA28E1E66451500D65368 /* Avasarala_ModellingPokemon */,
+				6D0EA2A31E66451500D65368 /* Avasarala_ModellingPokemonTests */,
+				6D0EA2AE1E66451500D65368 /* Avasarala_ModellingPokemonUITests */,
+				6D0EA28D1E66451500D65368 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D0EA28D1E66451500D65368 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D0EA28C1E66451500D65368 /* Avasarala_ModellingPokemon.app */,
+				6D0EA2A01E66451500D65368 /* Avasarala_ModellingPokemonTests.xctest */,
+				6D0EA2AB1E66451500D65368 /* Avasarala_ModellingPokemonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D0EA28E1E66451500D65368 /* Avasarala_ModellingPokemon */ = {
+			isa = PBXGroup;
+			children = (
+				6D0EA28F1E66451500D65368 /* AppDelegate.swift */,
+				6D0EA2911E66451500D65368 /* ViewController.swift */,
+				6D0EA2931E66451500D65368 /* Main.storyboard */,
+				6D0EA2961E66451500D65368 /* Assets.xcassets */,
+				6D0EA2981E66451500D65368 /* LaunchScreen.storyboard */,
+				6D0EA29B1E66451500D65368 /* Info.plist */,
+			);
+			path = Avasarala_ModellingPokemon;
+			sourceTree = "<group>";
+		};
+		6D0EA2A31E66451500D65368 /* Avasarala_ModellingPokemonTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D0EA2A41E66451500D65368 /* Avasarala_ModellingPokemonTests.swift */,
+				6D0EA2A61E66451500D65368 /* Info.plist */,
+			);
+			path = Avasarala_ModellingPokemonTests;
+			sourceTree = "<group>";
+		};
+		6D0EA2AE1E66451500D65368 /* Avasarala_ModellingPokemonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6D0EA2AF1E66451500D65368 /* Avasarala_ModellingPokemonUITests.swift */,
+				6D0EA2B11E66451500D65368 /* Info.plist */,
+			);
+			path = Avasarala_ModellingPokemonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D0EA28B1E66451500D65368 /* Avasarala_ModellingPokemon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D0EA2B41E66451500D65368 /* Build configuration list for PBXNativeTarget "Avasarala_ModellingPokemon" */;
+			buildPhases = (
+				6D0EA2881E66451500D65368 /* Sources */,
+				6D0EA2891E66451500D65368 /* Frameworks */,
+				6D0EA28A1E66451500D65368 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Avasarala_ModellingPokemon;
+			productName = Avasarala_ModellingPokemon;
+			productReference = 6D0EA28C1E66451500D65368 /* Avasarala_ModellingPokemon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6D0EA29F1E66451500D65368 /* Avasarala_ModellingPokemonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D0EA2B71E66451500D65368 /* Build configuration list for PBXNativeTarget "Avasarala_ModellingPokemonTests" */;
+			buildPhases = (
+				6D0EA29C1E66451500D65368 /* Sources */,
+				6D0EA29D1E66451500D65368 /* Frameworks */,
+				6D0EA29E1E66451500D65368 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D0EA2A21E66451500D65368 /* PBXTargetDependency */,
+			);
+			name = Avasarala_ModellingPokemonTests;
+			productName = Avasarala_ModellingPokemonTests;
+			productReference = 6D0EA2A01E66451500D65368 /* Avasarala_ModellingPokemonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6D0EA2AA1E66451500D65368 /* Avasarala_ModellingPokemonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D0EA2BA1E66451500D65368 /* Build configuration list for PBXNativeTarget "Avasarala_ModellingPokemonUITests" */;
+			buildPhases = (
+				6D0EA2A71E66451500D65368 /* Sources */,
+				6D0EA2A81E66451500D65368 /* Frameworks */,
+				6D0EA2A91E66451500D65368 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D0EA2AD1E66451500D65368 /* PBXTargetDependency */,
+			);
+			name = Avasarala_ModellingPokemonUITests;
+			productName = Avasarala_ModellingPokemonUITests;
+			productReference = 6D0EA2AB1E66451500D65368 /* Avasarala_ModellingPokemonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D0EA2841E66451500D65368 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Avasarala,Venkata Bhardwaj";
+				TargetAttributes = {
+					6D0EA28B1E66451500D65368 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					6D0EA29F1E66451500D65368 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6D0EA28B1E66451500D65368;
+					};
+					6D0EA2AA1E66451500D65368 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6D0EA28B1E66451500D65368;
+					};
+				};
+			};
+			buildConfigurationList = 6D0EA2871E66451500D65368 /* Build configuration list for PBXProject "Avasarala_ModellingPokemon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D0EA2831E66451500D65368;
+			productRefGroup = 6D0EA28D1E66451500D65368 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D0EA28B1E66451500D65368 /* Avasarala_ModellingPokemon */,
+				6D0EA29F1E66451500D65368 /* Avasarala_ModellingPokemonTests */,
+				6D0EA2AA1E66451500D65368 /* Avasarala_ModellingPokemonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D0EA28A1E66451500D65368 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D0EA29A1E66451500D65368 /* LaunchScreen.storyboard in Resources */,
+				6D0EA2971E66451500D65368 /* Assets.xcassets in Resources */,
+				6D0EA2951E66451500D65368 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D0EA29E1E66451500D65368 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D0EA2A91E66451500D65368 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D0EA2881E66451500D65368 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D0EA2921E66451500D65368 /* ViewController.swift in Sources */,
+				6D0EA2901E66451500D65368 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D0EA29C1E66451500D65368 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D0EA2A51E66451500D65368 /* Avasarala_ModellingPokemonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D0EA2A71E66451500D65368 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D0EA2B01E66451500D65368 /* Avasarala_ModellingPokemonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D0EA2A21E66451500D65368 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D0EA28B1E66451500D65368 /* Avasarala_ModellingPokemon */;
+			targetProxy = 6D0EA2A11E66451500D65368 /* PBXContainerItemProxy */;
+		};
+		6D0EA2AD1E66451500D65368 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D0EA28B1E66451500D65368 /* Avasarala_ModellingPokemon */;
+			targetProxy = 6D0EA2AC1E66451500D65368 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6D0EA2931E66451500D65368 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D0EA2941E66451500D65368 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6D0EA2981E66451500D65368 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D0EA2991E66451500D65368 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D0EA2B21E66451500D65368 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6D0EA2B31E66451500D65368 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D0EA2B51E66451500D65368 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Avasarala_ModellingPokemon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Avasarala-ModellingPokemon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6D0EA2B61E66451500D65368 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Avasarala_ModellingPokemon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Avasarala-ModellingPokemon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6D0EA2B81E66451500D65368 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Avasarala_ModellingPokemonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Avasarala-ModellingPokemonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Avasarala_ModellingPokemon.app/Avasarala_ModellingPokemon";
+			};
+			name = Debug;
+		};
+		6D0EA2B91E66451500D65368 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Avasarala_ModellingPokemonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Avasarala-ModellingPokemonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Avasarala_ModellingPokemon.app/Avasarala_ModellingPokemon";
+			};
+			name = Release;
+		};
+		6D0EA2BB1E66451500D65368 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Avasarala_ModellingPokemonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Avasarala-ModellingPokemonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Avasarala_ModellingPokemon;
+			};
+			name = Debug;
+		};
+		6D0EA2BC1E66451500D65368 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Avasarala_ModellingPokemonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Avasarala-ModellingPokemonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Avasarala_ModellingPokemon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D0EA2871E66451500D65368 /* Build configuration list for PBXProject "Avasarala_ModellingPokemon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D0EA2B21E66451500D65368 /* Debug */,
+				6D0EA2B31E66451500D65368 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D0EA2B41E66451500D65368 /* Build configuration list for PBXNativeTarget "Avasarala_ModellingPokemon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D0EA2B51E66451500D65368 /* Debug */,
+				6D0EA2B61E66451500D65368 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6D0EA2B71E66451500D65368 /* Build configuration list for PBXNativeTarget "Avasarala_ModellingPokemonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D0EA2B81E66451500D65368 /* Debug */,
+				6D0EA2B91E66451500D65368 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6D0EA2BA1E66451500D65368 /* Build configuration list for PBXNativeTarget "Avasarala_ModellingPokemonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D0EA2BB1E66451500D65368 /* Debug */,
+				6D0EA2BC1E66451500D65368 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D0EA2841E66451500D65368 /* Project object */;
+}
